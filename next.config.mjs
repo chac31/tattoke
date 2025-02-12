@@ -15,14 +15,6 @@ const nextConfig = {
     ],
     unoptimized: true
   },
-  async rewrites() {
-    return [
-      {
-        source: "/api/:path*",
-        destination: "https://api.openai.com/:path*",
-      },
-    ];
-  },
   webpack: (config) => {
     config.watchOptions = {
       poll: 1000,
