@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@supabase/supabase-js": "^2.48.1",
+    "@types/node": "^22.13.1",
+    "@types/react": "^19.0.8",
+    "replicate": "^1.0.1"
+  }
+}
